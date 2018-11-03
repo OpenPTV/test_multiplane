@@ -1,0 +1,21 @@
+
+target:
+    image: ../../data/20151220/cal_mp/midwest3.tif
+    number: 2
+    ori_file: cal_mp/midwest3.tif.ori
+    addpar_file: cal_mp/midwest3.tif.addpar
+    known_points: cal_mp/points_wf_midwest3.txt
+    manual_detection_points: [ 1, 5, 16, 20]
+    manual_detection_file: cal_mp/midwest3_man.txt
+    detection_par_file: parameters/targ_rec.par
+
+scene:
+    flags: hp, headers
+    image_size: [ 1280, 1024 ]
+    pixel_size: [ 0.014, 0.014 ]
+
+    # Multimedia parameters:
+    cam_side_n: 1  # air
+    object_side_n: 1.33  # perspex
+    wall_ns: [ 1.43 ]
+    wall_thicks: [ 5 ]

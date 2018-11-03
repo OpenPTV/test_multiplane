@@ -1,0 +1,20 @@
+
+- image: cal_mp/west1.tif
+  ori_file: cal_single/multi1.tif.ori
+  addpar_file: cal_single/multi1.tif.addpar
+
+
+- image: cal_mp/west2.tif
+  ori_file: cal_single/multi2.tif.ori
+  addpar_file: cal_single/multi2.tif.addpar
+
+
+- image: cal_mp/west3.tif
+  ori_file: cal_single/multi3.tif.ori
+  addpar_file: cal_single/multi3.tif.addpar
+
+
+- image: cal_mp/west4.tif
+  ori_file: cal_single/multi4.tif.ori
+  addpar_file: cal_single/multi4.tif.addpar
+

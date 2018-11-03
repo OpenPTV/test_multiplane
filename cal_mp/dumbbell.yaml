@@ -1,0 +1,40 @@
+
+first: 55
+last: 281
+template: dumbbell/cam%d.
+
+dumbbell:
+    length: 35
+    weight: 0.5
+
+initial:    
+    - image: cal_mp/multi1.tif 
+      ori_file: cal_mp/multi1.tif.ori
+      addpar_file: cal_mp/multi1.tif.addpar
+      free: no
+
+    - image: cal_mp/multi2.tif 
+      ori_file: cal_mp/multi2.tif.ori
+      addpar_file: cal_mp/multi2.tif.addpar
+      free: no 
+
+    - image: cal_mp/multi3.tif 
+      ori_file: cal_mp/multi3.tif.ori
+      addpar_file: cal_mp/multi3.tif.addpar
+      free: yes
+
+    - image: cal_mp/multi4.tif 
+      ori_file: cal_mp/multi4.tif.ori
+      addpar_file: cal_mp/multi4.tif.addpar
+      free: no
+
+scene:
+    flags: hp, headers
+    image_size: [ 1280, 1024 ]
+    pixel_size: [ 0.014, 0.014 ]
+
+    # Multimedia parameters:
+    cam_side_n: 1  # air
+    object_side_n: 1.33  # perspex
+    wall_ns: [ 1.43 ]
+    wall_thicks: [ 5 ]
