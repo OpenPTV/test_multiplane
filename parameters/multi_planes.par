@@ -1,4 +1,6 @@
-3
-img/calib_a_cam
-img/calib_b_cam
-img/calib_c_cam
+5
+cal_mp/cam
+cal_mp/mideast
+cal_mp/east
+cal_mp/midwest
+cal_mp/west

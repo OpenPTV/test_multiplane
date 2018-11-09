@@ -1,0 +1,29 @@
+target:
+    number: 2
+    image: cal_mp/cam3.tif 
+    ori_file: cal_mp/multi3.tif.ori
+    addpar_file: cal_mp/multi3.tif.addpar
+
+scene:
+    flags: hp, headers
+    image_size: [ 1280, 1024 ]
+    pixel_size: [ 0.014, 0.014 ]
+    
+    # Multimedia parameters:
+    cam_side_n: 1  # air
+    object_side_n: 1.33  # perspex
+    wall_ns: [ 1.43 ]
+    wall_thicks: [ 5 ]
+
+planes:
+    - known: cal_mp/east3.tif.fix
+      detected: cal_mp/east3.tif.crd
+    - known: cal_mp/mideast3.tif.fix
+      detected: cal_mp/mideast3.tif.crd
+    - known: cal_mp/cam3.tif.fix
+      detected: cal_mp/cam3.tif.crd
+    - known: cal_mp/midwest3.tif.fix
+      detected: cal_mp/midwest3.tif.crd
+    - known: cal_mp/west3.tif.fix
+      detected: cal_mp/west3.tif.crd
+
